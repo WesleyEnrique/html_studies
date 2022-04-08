@@ -1,0 +1,151 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .center  {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 2%;
+
+    }
+
+  html, body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    
+  }
+
+    head{
+      height: 200px;
+      padding: 20px 0;
+    }
+
+    .logo{
+      padding-top: 20px;
+      width:40% ;
+      margin-left: 2px;
+       
+    }
+
+    .menu{
+      padding-top: 60px;
+      width: 50%;
+      text-align: right;
+      font-size: 30px;
+      
+    }
+
+  .menu a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 25px;
+    right: 50px;
+  }
+
+  section.sobre{
+    position: absolute;
+    height: calc(100% - 200px);
+  }
+
+  .extra{
+    position: absolute;
+    bottom: -450px;
+    right: -600px;
+    width: 1200px;
+    height: 1200px;
+    border-radius: 50%;
+    background-color: #7b2796;
+    background: linear-gradient(to bottom right, rgb(148, 121, 173), rgb(122, 44, 212));
+    
+  }
+  .extra img{
+    position: absolute;
+    bottom: auto;
+    right: -400px;
+    top: 150px;
+  }
+
+
+  .social-media{
+    position: absolute;
+    left: 1000px;
+    bottom: 0;
+    display: inline-block ;
+    margin: 20px 10px;
+  }
+
+  h1{
+    position: absolute;
+    right: 300px;
+    top: 300px;
+    font-size: 100px;
+    font-family: 'Rubik Wet Paint', cursive;
+    color: white;
+    
+  }
+  p{
+    color: white;
+    position: absolute;
+    right: 100px;
+    top: 450px;
+    font-size: 20px;
+    font-family: 'Grape Nuts', cursive;
+    
+  }
+
+body{
+  background-image: url(../img/nike-force-wallpaper-preview.jpg);
+  background-repeat: no-repeat;
+  background-color: black;
+  background-position:100%;
+  background-size: 70% 100%;
+  background: -webkit-linear-gradient(left, rgb(20, 17, 25) 0%, rgb(69, 61, 52) 80%, rgb(57, 50, 45) 100%);
+  
+}
+
+body{
+  background-image:
+    linear-gradient(to bottom, rgba(78, 79, 85, 0.52), rgba(117, 19, 93, 0.73)),
+    url('../img/nike-force-wallpaper-preview.jpg');
+    width: 80%;
+    height: 400px;
+    background-size: bottom;
+    color: white;
+    padding: 20px;
+}
+
+.container {
+  
+  position: auto;
+	height: 0%;
+	display: flex;
+	align-items: center;
+  justify-content: center;
+}
+.animated-word {
+	font-family: Helvetica;
+	letter-spacing: 0.4em;
+	font-weight: 600;
+	font-size: 100px;
+	text-align: center;
+	color: #202125;
+  cursor: pointer;
+  max-width: 600px; 
+  width: 100%; 
+  outline: 3px solid;
+  outline-color: rgba(71, 126, 232,0.5);
+  outline-offset: 70px;
+  transition: all 600ms cubic-bezier(0.2, 0, 0, 0.8);
+}
+
+.animated-word:hover {
+	color: rgba(71, 126, 232, 0.7);
+  outline-color: rgba(71, 126, 232, 0);
+  outline-offset: 300px;
+}
